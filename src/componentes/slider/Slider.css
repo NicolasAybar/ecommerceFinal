@@ -1,0 +1,22 @@
+.item{
+    height: 40rem;
+    max-width: 30rem;
+    padding: 2rem;  /*separamos a la imagenes*/
+}
+.item img{
+    height: 400px;
+    width: 300px;
+    pointer-events: none;/*no permite que se arrastren las imagenes*/
+}
+.slider{
+    display: flex;
+    cursor: grab;/*sale la mano*/
+}
+
+.slider-container{
+    margin: 0 auto;
+    overflow-x: hidden;/*para ocultar lo que sobresale*/
+    border: 1px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}

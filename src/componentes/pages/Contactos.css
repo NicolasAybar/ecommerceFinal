@@ -1,0 +1,27 @@
+.ContenedorForm{
+  background-color:azure;
+  color:blue;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 45px;
+}
+label{
+  display: block;
+}
+input, select{
+  width: 100%;
+}
+span{
+  display: block;
+  color: tomato;
+  font-size: x-small;
+}
+.checkForm{
+  margin-left: 10px;
+}
+.BotonForm{
+  background-color: inherit;
+  color: blue;
+  border-radius: 5px;
+}

@@ -1,0 +1,27 @@
+.root{
+    max-width: 345;
+}
+.action{
+    margin-top: 1rem;
+}
+.media{
+    height:250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding-top: 56,25%;
+    margin-left: 10px;
+}
+.expand{
+    transform: rotate(0deg);
+    margin-left: auto;
+    transition:cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+}
+
+.expanOpen{
+    transform: rotate(188deg);
+}
+.avatar{
+    background-color: brown;
+}
