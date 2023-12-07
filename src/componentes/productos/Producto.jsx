@@ -74,8 +74,8 @@ const ExpandMore = styled((props) => {
       <CardMedia className='media'
         component="img"
         height="194"
-        image=''
-        alt={imagen}
+        image={imagen}
+        alt={nombre}
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
